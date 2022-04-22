@@ -23,5 +23,3 @@ DOI: https://doi.org/10.1145/3491102.3517593
 
 
 ### Scooter Rides
-
-{{https://www.instagram.com/reel/CcKTjGnIHgP/?utm_source=ig_web_copy_link}}
