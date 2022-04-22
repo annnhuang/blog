@@ -8,7 +8,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "Ann Huang"
-  bio = "Just an ordinary potato living in the land of potatoes striving for extraordinary experiences 🇩🇪"
+  bio = "Just an ordinary potato living in the land of potatoes striving for some extraordinary experiences 🇩🇪"
   avatar = "img/avatar.png"
 
 [Params.widgets.social]
