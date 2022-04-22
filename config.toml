@@ -1,4 +1,4 @@
-baseurl = "/blog"
+baseurl = "/"
 title = "another blog"
 languageCode = "en-us"
 paginate = "3" # Number of posts per page
@@ -27,7 +27,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   mainSections = ["post", "docs"]
 
 [Params.logo]
-  subtitle = "under construction" # Logo subtitle
+  subtitle = "just another site" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
