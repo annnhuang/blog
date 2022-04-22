@@ -15,6 +15,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   twitter = "annnhuang"
   email = "ann.huang9419@gmail.com"
   github = "annnhuang"
+  instagram = "annnhuang"
 
 [Params]
   description = "Ann Huang's Personal blog about everything" # Description of your site
