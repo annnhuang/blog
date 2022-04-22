@@ -6,7 +6,9 @@ menu: main
 weight: 2
 ---
 
-### Proxemics for Human-Agent Interaction in Augmented Reality
+## Academia
+
+#### Proxemics for Human-Agent Interaction in Augmented Reality
 
 {{< youtube I7CahaclRME >}}
 
@@ -17,9 +19,9 @@ Session: Virtual Agents and Environments
 
 Augmented Reality (AR) embeds virtual content in physical spaces, including virtual agents that are known to exert a social presence on users. Existing design guidelines for AR rarely consider the social implications of an agent's personal space (PS) and that it can impact user behavior and arousal. We report an experiment (N=54) where participants interacted with agents in an AR art gallery scenario. When participants approached six virtual agents (i.e., two males, two females, a humanoid robot, and a pillar) to ask for directions, we found that participants respected the agents' PS and modulated interpersonal distances according to the human-like agents' perceived gender. When participants were instructed to walk through the agents, we observed heightened skin-conductance levels that indicate physiological arousal. These results are discussed in terms of proxemic theory that result in design recommendations for implementing pervasive AR experiences with virtual agents.
 
-WEB: http://programs.sigchi.org/chi/2022/p \\
-Presentation Video: https://www.youtube.com/watch?v=pXLQj \\
+WEB: http://programs.sigchi.org/chi/2022/p \
+Presentation Video: https://www.youtube.com/watch?v=pXLQj \
 DOI: https://doi.org/10.1145/3491102.3517593
 
 
-### Scooter Rides
+## Mischellaneous

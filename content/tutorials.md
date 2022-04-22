@@ -1,0 +1,91 @@
+---
+title: Tutorials
+authorbox: true
+sidebar: false
+menu: main
+weight: 3
+---
+
+## Physiological Recording with BITalino
+*Last edited: 01.07.2020*
+ 
+### Electromyography (EMG)
+
+Before starting, consult the following references from the [official BITalino website]:
+
+[official BITalino website]: https://www.pluxbiosignals.com/
+
+* [EMG Sensor Data Sheet]: This document provides a general description of the use of EMG, a typical shape of raw EMG data, bioelectrical specifications, and a figure of the bipolar electrode placements.
+* [OpenSignals software overview]: This video presents an overview of the main OpenSignals (r)evolution features and operations.
+
+[EMG Sensor Data Sheet]: https://bitalino.com/storage/uploads/media/revolution-emg-sensor-datasheet-1.pdf
+[OpenSignals software overview:]: https://www.youtube.com/watch?v=jC4BdUD1Pyo&ab_channel=BITalinoWorld
+
+### Materials and Equipment
+
+* BITalino Core BT (MCU+BT+PWR): This is the main board that enables real-time data streaming. The details of the board can be found here, with a figure of all the relevant functional blocks and components.
+* 1500mAh 3.7V Battery
+* EMG sensors: These are sensors specifically built for muscle activity measurement.
+* Bitalino Sensor Cable (100 cm): This cable connects the EMG sensors to the main board.
+* 3-Lead Electrode Cable: This cable assembly is used to connect the EMG sensors to the electrodes.
+* Several* Gelled Self-adhesive Disposable Ag/AgCl: Standard pre-gelled and self-adhesive disposable electrodes
+ 
+*Number varies depending on the needs.
+ 
+Miscellaneous Additional Components
+3D Printed Casings: The casings for the circuit board and the sensors can ensure the longevity of the components as they protect them from wearing out.  
+
+### Method
+
+Before acquiring signals, please check out the BITalino Quickstart Guide.
+
+1. Begin by downloading the OpenSignals software using this [link]. For more information about the software, the software’s data sheet can be found [here].
+
+[link]: https://support.pluxbiosignals.com/knowledge-base/introducing-opensignals-revolution/
+[here]: https://bitalino.com/storage/uploads/media/opensignals-datasheet.pdf
+
+2. Connect the 3.7V battery to the main circuit board, and turn on the power.
+ 
+3. Open the OpenSignals software. Connect your computer with the main circuit board via Bluetooth. Enter the password PIN: “1234” on your computer to enable Bluetooth connection (see pg. 18 in the [user manual]).
+
+[user manual]: https://opensignals.net/OpenSignals_(r)evolution_User_Manual-print.pdf
+
+Click the GUI symbol on the bottom that allows “find and configure your devices”.
+ 
+4. On this main circuit board, there are 6 available channels (see the back of the main board). Select **the number and the type of channels** that you’d like to use (e.g. A1&A2/EMG) and disable all the other channels by clicking on/deselecting the blue dots.
+
+Note that the blue-colored “ENABLED” means the system is already active, no need to click on the “ENABLED” to activate the system.
+ 
+5. Clicking the GUI symbol at the bottom for “Change OpenSignals Setting” will allow you to save your future recordings in different file formats (.txt, .h5, and .edf). You may choose to select all, although .txt files are enough for signal filtering and processing on Python or MATLAB. Another important option is to choose the desired location to save your recording files. For more information, see the software’s [File Formats Description].
+
+[File Formats Description]: https://bitalino.com/storage/uploads/media/homeguide0-gettingstarted.pdf
+
+6. Prepare your recording electrodes by connecting the sensor cable(s), the EMG sensor(s), and the 3-lead electrodes together.
+ 
+Note the plugged-in channel number needs to match the number of the sensor you chose on OpenSignals at step #4.
+ 
+**Important**: the EMG sensor has two sides of outputs with distinct connections- the socket with “A1”,”AVCC”, “REF”, “GND” should be connected to the cable that leads to the main board, and the socket with “IN-”, “REF”, and “IN+” and the word “EMG” on the side should connect to the 3-lead recording electrode. If this is done incorrectly the bipolar recording system will not work.
+ 
+7. Attach the gelled self-adhesive disposable Ag/AgCl onto the electrodes, and place them accordingly on the desired muscle to record. The middle electrode is the reference/ground electrode.
+
+8. Click the red recording button to begin data acquisition.
+
+When you are done, you can click “Start the file viewer on the current file” to view the recording. You may review the [video] for the software’s built-in features for extracting a report of the data.
+
+[video]: https://www.youtube.com/watch?v=jC4BdUD1Pyo&ab_channel=BITalinoWorld
+
+The data are now stored in your pre-defined location and ready for further processing.
+
+### Common Issues and Troubleshooting
+
+* Bluetooth connection
+
+Sometimes, a Bluetooth related error message will appear. When this happens, it is most useful to turn off, or even **reset** (by deleting) the BITalino Bluetooth connection altogether on your computer’s Bluetooth setting and re-start the software by entering the Bluetooth password pin once again. See page 185 in the user manual for a comprehensive error list. There is also a guide specifically for Bluetooth troubleshooting.
+
+### Additional Resources
+
+* [OpenSignals (r)evolution (v.2019) User Manual]
+* [BITalino (r)evolution Sensors Tour]: This video presents an overview of the default sensor blocks included in every BITalino (r)evolution kit.
+
+[OpenSignals (r)evolution (v.2019) User Manual]: https://bitalino.com/storage/uploads/media/opensignals-manual.pdf
+[BITalino (r)evolution Sensors Tour]: https://www.youtube.com/watch?v=LOFUTNEgrv4&ab_channel=BITalinoWorld
