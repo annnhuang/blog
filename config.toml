@@ -1,4 +1,4 @@
-baseurl = "https://annhuang.github.io/blog.github.io"
+baseurl = "/"
 title = "another blog"
 languageCode = "en-us"
 paginate = "3" # Number of posts per page
