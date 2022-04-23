@@ -2,8 +2,10 @@
 title: Tutorials
 authorbox: true
 sidebar: false
-menu: main
-weight: 3
+menu:
+  main:
+    name: Tutorials
+    weight: 3
 ---
 
 ## Physiological Recording with BITalino

@@ -2,8 +2,12 @@
 title: Projects
 authorbox: false
 sidebar: true
-menu: main
-weight: 2
+tags:
+    - "academia"
+menu:
+  main:
+    name: Projects
+    weight: 2
 ---
 
 ## Academia
