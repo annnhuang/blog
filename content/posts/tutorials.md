@@ -1,12 +1,11 @@
 ---
-title: Tutorials
+title: Physiological Recording with BITalino
 authorbox: true
 sidebar: true
 toc: true
-menu:
-  main:
-    name: Tutorials
-    weight: 3
+tags:
+  - "Academia"
+  - "Tutorials"
 ---
 
 ## Physiological Recording with BITalino

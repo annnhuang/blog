@@ -22,3 +22,5 @@
 	{{- end }}
 </div>
 {{- end }}
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
