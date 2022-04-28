@@ -24,7 +24,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = true
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["posts"]
+  mainSections = ["posts", "authorbox"]
 
 [Params.logo]
   subtitle = "just another site" # Logo subtitle
