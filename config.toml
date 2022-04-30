@@ -59,13 +59,13 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     weight = 1
   [[menu.main]]
     identifier = "Reviews"
-    name = "Reviews"
+    name = "Book Reviews"
     url = "/tags/Reviews"
     parent = "Projects"
     weight = 2
   [[menu.main]]
-    identifier = "mischellaneous"
-    name = "Mischellaneous"
-    url = "/tags/mischellaneous"
+    identifier = "Vlogs"
+    name = "Scooter Vlogs"
+    url = "/tags/Vlogs"
     parent = "Projects"
     weight = 3
