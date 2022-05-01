@@ -69,3 +69,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     url = "/tags/Vlogs"
     parent = "Projects"
     weight = 3
+  [[menu.main]]
+    identifier = "Music"
+    name = "Music"
+    url = "/tags/Music"
+    parent = "Projects"
+    weight = 3
