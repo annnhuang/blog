@@ -3,7 +3,7 @@ title = "anotherblog"
 languageCode = "en-us"
 paginate = "3" # Number of posts per page
 theme = "mainroad"
-disqusShortname = "" # Enable comments by entering your Disqus shortname
+disqusShortname = "anotherblog-1" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
